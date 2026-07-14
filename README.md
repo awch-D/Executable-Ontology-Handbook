@@ -35,7 +35,7 @@
 - 关键物料断供的端到端供应链案例
 - AI Agent 授权阶梯与安全接入方法
 - 最小闭环落地路线、成熟度模型和上线检查清单
-- 目录搜索、滚动高亮、交互式标签、自测题和打印 PDF
+- 滚动联动目录、默认展开释义、交互式标签、自测题和打印样式
 - 单文件、零构建、完全响应式、无远程 UI 依赖
 
 ## 章节目录
@@ -69,13 +69,13 @@ open index.html        # macOS
 
 ## GitHub Pages
 
-仓库已包含 `.github/workflows/pages.yml`。推送到 `main` 后，在 GitHub 仓库设置中将 Pages 的 Source 设为 **GitHub Actions**，后续推送会自动部署。
+当前仓库已启用 GitHub Pages，构建源为 **GitHub Actions**；推送到 `main` 后，`.github/workflows/pages.yml` 会自动部署。Fork 本项目后，需要先在仓库 **Settings → Pages** 中将 Source 设为 **GitHub Actions**。
 
 ## 技术实现
 
 - HTML5
 - 原生 CSS：变量、Grid、Flexbox、响应式与打印样式
-- 原生 JavaScript：目录搜索、滚动联动、标签切换与自测评分
+- 原生 JavaScript：滚动联动、标签切换与自测评分
 - 内嵌 SVG favicon
 - 无 Node.js、包管理器或构建步骤
 
@@ -104,4 +104,4 @@ Executable-Ontology-Handbook/
 
 ## 协议
 
-本项目以 [MIT License](LICENSE) 开源。引用的第三方文档、商标与产品名称版权归各自权利人所有。
+本项目以 [Apache License 2.0](LICENSE) 开源。引用的第三方文档、商标与产品名称版权归各自权利人所有。
